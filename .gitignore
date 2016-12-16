@@ -1,0 +1,37 @@
+.*
+!.gitignore
+!.empty
+
+#
+# java
+#
+*.class
+*.jar
+*.Ignored.java
+*.cvsignore
+.settings
+.project
+*.iml
+target/
+bin/
+log/
+*CVS/
+#
+# execucao em *nix
+#
+nohup.out
+
+#
+# git merge conflict backup files.
+#
+*.orig
+
+#
+# arquivos log sao resultados de execucoes
+#
+*.log
+*.lock
+*.pid
+tomcat
+war
+*.patch
